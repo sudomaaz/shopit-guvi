@@ -1,32 +1,30 @@
 {
-  "name": "shopit",
+  "name": "e-commerce",
   "version": "1.0.0",
-  "description": "full ecommerce site using mern",
+  "description": "An e-commerce app",
   "main": "server.js",
   "scripts": {
-    "start": "SET node backend/server.js",
-    "dev": "SET NODE_ENV=DEVELOPMENT& nodemon backend/server",
-    "prod": "SET NODE_ENV=PRODUCTION& nodemon backend/server",
-    "seeder": "node backend/utils/seeder.js",
-    "heroku-postbuild" : "NPM_CONFIG_PRODUCTION=false && npm install --prefix frontend && npm run build --prefix frontend"
+    "client-install": "npm install --prefix client",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
-  "author": "Ghulam Abbas",
+  "author": "Shubham",
   "license": "ISC",
   "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "body-parser": "^1.19.0",
-    "cloudinary": "^1.23.0",
+    "bcrypt": "^5.0.0",
+    "concurrently": "^5.3.0",
+    "config": "^3.3.3",
     "cookie-parser": "^1.4.5",
-    "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "express-fileupload": "^1.2.0",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.10.16",
-    "nodemailer": "^6.4.16",
-    "stripe": "^8.128.0",
-    "validator": "^13.1.17"
+    "mongoose": "^5.11.11",
+    "stripe": "^8.130.0",
+    "validator": "^13.5.2"
   },
   "devDependencies": {
-    "nodemon": "^2.0.6"
+    "nodemon": "^2.0.7"
   }
 }
