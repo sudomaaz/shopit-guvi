@@ -1,32 +1,29 @@
-## MERN eCommerce Frontend
+## MERN eCommerce Web App
 
-Frontend was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full fledged e-commerce applcation written from scratch with seeked guidance from youtube.
 
-In the frontend directory, you can run:
+Backend API is created with express and MongoDB.
 
-### `npm run dev`
+Front end is created in React.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Mongoose package is used for object modeling and interacting with MongoDB.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Live Demo
 
-### `npm run build`
+URL: https://shopit-guvi.herokuapp.com
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Demo logins
 
-After build process, if the `NODE_ENV` value in the .env file has the "production" value then, frontend build folder will be set as a static folder for backend side.
+**Admin**
+username: admin@example.com
+password: admin321
 
-Code sample from `.../backend/server.js`
+**User**
+username: maaz@example.com
+password: 123456
 
-```
-if (process.env.NODE_ENV === 'production') {
-	app.use(express.static(path.join(__dirname, '/frontend/build')));
+## Demo Card
 
-	app.get('*', (req, res) =>
-		res.sendFile(path.resolve(__dirname, 'frontend', 'build', 'index.html'))
-	);
-}
-```
+Card: 4242-4242-4242-4242
+Expiry: 06/24
+CVV : 121
