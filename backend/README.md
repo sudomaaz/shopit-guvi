@@ -1,6 +1,6 @@
 ## MERN eCommerce Web App
 
-A full fledged e-commerce applcation. It was developed with the guidance of the Udemy course. I changed the payment method from PayPal to Stripe.
+A full fledged e-commerce applcation written from scratch with seeked guidance from youtube.
 
 Backend API is created with express and MongoDB.
 
@@ -14,5 +14,16 @@ URL: https://shopit-guvi.herokuapp.com
 
 ## Demo logins
 
+**Admin**
+username: admin@example.com
+password: admin321
+
 **User**
-username:
+username: maaz@example.com
+password: 123456
+
+## Demo Card
+
+Card: 4242-4242-4242-4242
+Expiry: 06/24
+CVV : 121
