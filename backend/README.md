@@ -1,19 +1,18 @@
-## MERN eCommerce Backend
+## MERN eCommerce Web App
+
+A full fledged e-commerce applcation. It was developed with the guidance of the Udemy course. I changed the payment method from PayPal to Stripe.
 
 Backend API is created with express and MongoDB.
 
-API routes are created with express and you can find them in the `../backend/routes/` directory. Each entity has its own route file for handling incoming requests.
-
-Each entity has its own controller file which is located in `../backend/controllers/` and they are consumed by the respective routes.
+Front end is created in React.
 
 Mongoose package is used for object modeling and interacting with MongoDB.
 
-## Usage
+## Live Demo
 
-After the installation of npm packages which is described in the README of root directory. Use the command below for starting backend side of the project.
+URL: https://shopit-guvi.herokuapp.com
 
-```bash
-npm start
-```
+## Demo logins
 
-After starting backend API, check the products route from http://localhost:5000/api/products to see if the data is retrieving correctly.
+**User**
+username:
