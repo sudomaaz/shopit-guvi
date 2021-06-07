@@ -14,16 +14,14 @@ URL: https://shopit-guvi.herokuapp.com
 
 ## Demo logins
 
-**Admin**
 username: admin@example.com
 password: admin321
 
-**User**
 username: maaz@example.com
 password: 123456
 
 ## Demo Card
 
-Card: 4242-4242-4242-4242
-Expiry: 06/24
-CVV : 121
+Card: 4242-4242-4242-4242<br>
+Expiry: 06/24<br>
+CVV : 121<br>
