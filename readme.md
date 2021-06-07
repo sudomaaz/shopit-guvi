@@ -10,7 +10,7 @@ Mongoose package is used for object modeling and interacting with MongoDB.
 
 ## Live Demo
 
-URL: https://shopit-guvi.herokuapp.com
+URL: <a href="https://shopit-guvi.herokuapp.com" target="_blank">https://shopit-guvi.herokuapp.com</a>
 
 ## Demo logins
 
